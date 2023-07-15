@@ -1936,8 +1936,7 @@ async def auto_filter(client, msg, spoll=False):
     #     btn.insert(0, [
     #     InlineKeyboardButton("Hᴏᴡ ᴛᴏ Dᴏᴡɴʟᴏᴀᴅ⚡", url=TUTORIAL)
     #     ])
-    else:
-        btn = []
+    
     if offset != "":
         req = message.from_user.id if message.from_user else 0
         try:
